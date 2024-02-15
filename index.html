@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FELIZ DIA DE LA AMISTAD</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="efecto.js"></script>
+
+</head>
+<body>
+    <audio  controls>
+        <source src="Paradise - BTS.mp3" type="audio/mp3">
+        <source src="Paradisebts.ogv" type="audio/ogv">
+        Tu navegador no soporta el elemento de audio.
+    </audio>
+
+    <div class="card" id="card" onclick="flipCard()">
+        <div class="outside front">
+            <!-- Contenido inicial -->
+        </div>
+            <div class="inside">
+                <img src="tatakogif.gif"/>
+                <h1>¡FELIZ DIA DE LA AMISTAD </h1>
+                <h5>
+                    Querida Bir,
+                    Quería recordarte lo increíblemente especial que eres para mí. Aunque sé que a veces mi cariño puede parecer un poco molesto,
+                    quiero que sepas que es totalmente sincero. No puedo evitar expresar mi cariño de una manera juguetona. Nuestra amistad es un 
+                    tesoro que valoro mucho, y cada broma es solo una forma de mostrar lo agradecida que estoy de tenerte como amiga. 
+                    Espero que disfrutes de esta carta llena de cariño y diversión.
+                </h5>
+                <h6>
+                Con cariño,
+                Thae
+                </h6>
+            </div>
+        </div>
+        <!--
+        <div class="block">
+            <div class="frames frame1">
+                <img src="img1.png" alt="">
+                <p>Keep smiling, Keep shining</p>
+            </div>
+            <div class="frames frame2">
+                <img src="img2.png" alt="">
+                <p>On this occasion bring you a lot of happiness and success
+                </p>
+            </div>
+            <div class="frames frame3">
+                <img src="img3.png" alt="">
+                <p>May God bless you on your birthday, and always</p>
+            </div>
+        </div>-->
+    </div>
+    
+    <script>
+        function flipCard() {
+            var card = document.getElementById('card');
+            card.classList.toggle('flipped');
+            card.classList.add('fullscreen');
+        }
+    </script>
+</body>
+</html>
